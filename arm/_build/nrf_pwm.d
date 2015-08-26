@@ -1,0 +1,16 @@
+.\_build\nrf_pwm.o: ..\Source\pwm\nrf_pwm.c
+.\_build\nrf_pwm.o: ..\Include\pwm\nrf_pwm.h
+.\_build\nrf_pwm.o: D:\Keil5\ARM\ARMCC\bin\..\include\stdint.h
+.\_build\nrf_pwm.o: D:\Keil5\ARM\ARMCC\bin\..\include\stdbool.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\nrf.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\nrf51.h
+.\_build\nrf_pwm.o: D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h
+.\_build\nrf_pwm.o: D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h
+.\_build\nrf_pwm.o: D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\system_nrf51.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\nrf51_bitfields.h
+.\_build\nrf_pwm.o: D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\nrf51_deprecated.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\compiler_abstraction.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\nrf_gpiote.h
+.\_build\nrf_pwm.o: ..\..\..\..\..\Include\nrf_gpio.h

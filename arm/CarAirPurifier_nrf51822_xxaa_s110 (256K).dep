@@ -1,0 +1,747 @@
+Dependencies for Project 'CarAirPurifier', Target 'nrf51822_xxaa_s110 (256K)': (DO NOT MODIFY !)
+F (.\..\..\..\..\..\Source\templates\arm\arm_startup_nrf51.s)(0x52B2542C)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (.\..\..\..\..\..\Source\templates\system_nrf51.c)(0x52B2542C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+F (..\ble_config.h)(0x55C07E18)()
+F (.\..\main.c)(0x55C4B9FF)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_l2cap.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_err.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gattc.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatts.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_hci.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_services\ble_srv_common.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_advdata.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_conn_params.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards\pca10001.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_scheduler.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\sd_common\softdevice_handler.h)(0x52B40806)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_sdm.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_soc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_soc.h)(0x52789772)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_sdm.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\sd_common\ble_stack_handler_types.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\sd_common\ant_stack_handler_types.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_timer.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_error_log.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_flash.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_gpiote.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_button.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_debug_assert_handler.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\pstorage.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\pstorage_platform.h)(0x551DFEC4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\ble_config.h)(0x55C07E18)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sevices\ble_id.h)(0x554C7A51)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sevices\ble_uart.h)(0x55ADAAAB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\car_air_purifier.h)(0x55C1DCC1)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\led.h)(0x55A77675)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcd.h)(0x55BB29E9)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\sensor.h)(0x55A8A4B7)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\fan.h)(0x55C1DA8A)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\Buffer\rx_buffer_queue.h)(0x55ADB9A5)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\protocol\protocol.h)(0x55AE0DA3)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\protocol\application.h)(0x55B1E028)
+F (..\Source\Buffer\rx_buffer_queue.c)(0x55AF425B)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\rx_buffer_queue.o --omf_browse .\_build\rx_buffer_queue.crf --depend .\_build\rx_buffer_queue.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\Buffer\rx_buffer_queue.h)(0x55ADB9A5)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\ble_config.h)(0x55C07E18)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\protocol\application.h)(0x55B1E028)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\car_air_purifier.h)(0x55C1DCC1)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards\pca10001.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\led.h)(0x55A77675)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcd.h)(0x55BB29E9)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\sensor.h)(0x55A8A4B7)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\fan.h)(0x55C1DA8A)
+F (..\Source\protocol\protocol.c)(0x55B1DDF8)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\protocol.o --omf_browse .\_build\protocol.crf --depend .\_build\protocol.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\protocol\protocol.h)(0x55AE0DA3)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sevices\ble_uart.h)(0x55ADAAAB)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_l2cap.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_err.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gattc.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatts.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_services\ble_srv_common.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\protocol\application.h)(0x55B1E028)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\ble_config.h)(0x55C07E18)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\car_air_purifier.h)(0x55C1DCC1)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards\pca10001.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\led.h)(0x55A77675)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcd.h)(0x55BB29E9)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\sensor.h)(0x55A8A4B7)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\fan.h)(0x55C1DA8A)
+F (..\Source\protocol\application.c)(0x55C1D394)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\application.o --omf_browse .\_build\application.crf --depend .\_build\application.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\protocol\application.h)(0x55B1E028)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\ble_config.h)(0x55C07E18)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\car_air_purifier.h)(0x55C1DCC1)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards\pca10001.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\led.h)(0x55A77675)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcd.h)(0x55BB29E9)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\sensor.h)(0x55A8A4B7)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\fan.h)(0x55C1DA8A)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_services\ble_srv_common.h)(0x52B40802)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+F (..\Source\services\ble_id.c)(0x55ADB5C8)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\ble_id.o --omf_browse .\_build\ble_id.crf --depend .\_build\ble_id.d)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_services\ble_srv_common.h)(0x52B40802)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\ble_config.h)(0x55C07E18)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sevices\ble_id.h)(0x554C7A51)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_l2cap.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_err.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gattc.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatts.h)(0x52B252FA)
+F (..\Source\services\ble_uart.c)(0x55ADB537)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\ble_uart.o --omf_browse .\_build\ble_uart.crf --depend .\_build\ble_uart.d)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_services\ble_srv_common.h)(0x52B40802)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\ble_config.h)(0x55C07E18)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sevices\ble_uart.h)(0x55ADAAAB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_l2cap.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_err.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gattc.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatts.h)(0x52B252FA)
+F (..\Source\AirPurifier\car_air_purifier.c)(0x55C4C3C1)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\car_air_purifier.o --omf_browse .\_build\car_air_purifier.crf --depend .\_build\car_air_purifier.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\car_air_purifier.h)(0x55C1DCC1)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\boards\pca10001.h)(0x52B40804)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\led.h)(0x55A77675)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcd.h)(0x55BB29E9)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\sensor.h)(0x55A8A4B7)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\fan.h)(0x55C1DA8A)
+F (..\Source\AirPurifier\delay.c)(0x55A8A6D1)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\delay.o --omf_browse .\_build\delay.crf --depend .\_build\delay.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+F (..\Source\AirPurifier\gpio.c)(0x55769BF9)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\gpio.o --omf_browse .\_build\gpio.crf --depend .\_build\gpio.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+F (..\Source\AirPurifier\adc.c)(0x55C06F55)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\adc.o --omf_browse .\_build\adc.crf --depend .\_build\adc.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\adc.h)(0x5576F882)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_soc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_soc.h)(0x52789772)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+F (..\Source\AirPurifier\lcd13232.c)(0x55BB2A0B)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\lcd13232.o --omf_browse .\_build\lcd13232.crf --depend .\_build\lcd13232.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcd.h)(0x55BB29E9)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcdcode.h)(0x55BB29D7)
+F (..\Source\AirPurifier\rtc.c)(0x55A71679)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\rtc.o --omf_browse .\_build\rtc.crf --depend .\_build\rtc.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+F (..\Source\AirPurifier\led.c)(0x55A8A633)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\led.o --omf_browse .\_build\led.crf --depend .\_build\led.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\led.h)(0x55A77675)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+F (..\Source\AirPurifier\fan.c)(0x55CDE8E0)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\fan.o --omf_browse .\_build\fan.crf --depend .\_build\fan.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\fan.h)(0x55C1DA8A)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\pwm\nrf_pwm_noglitch.h)(0x55C02B7D)
+F (..\Include\AirPurifier\pin.h)(0x55C4C1C0)()
+F (..\Source\sensor\sensor.c)(0x55C4C277)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\sensor.o --omf_browse .\_build\sensor.crf --depend .\_build\sensor.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\sensor.h)(0x55A8A4B7)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\rtc.h)(0x55A8AB2D)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\dht11.h)(0x559E733B)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\pm25.h)(0x55C4B9A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\adc.h)(0x5576F882)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\tvoc.h)(0x55BB2D5A)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\lcd.h)(0x55BB29E9)
+F (..\Source\sensor\dht11.c)(0x55ACB36F)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\dht11.o --omf_browse .\_build\dht11.crf --depend .\_build\dht11.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\dht11.h)(0x559E733B)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+F (..\Source\sensor\pm25.c)(0x559E7379)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\pm25.o --omf_browse .\_build\pm25.crf --depend .\_build\pm25.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\pm25.h)(0x55C4B9A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\adc.h)(0x5576F882)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+F (..\Source\sensor\tvoc.c)(0x55BB2F37)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\tvoc.o --omf_browse .\_build\tvoc.crf --depend .\_build\tvoc.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\tvoc.h)(0x55BB2D5A)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\adc.h)(0x5576F882)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\delay.h)(0x55A8A7EB)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\gpio.h)(0x5558572C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\AirPurifier\pin.h)(0x55C4C1C0)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\sensor\dht11.h)(0x559E733B)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x51C7B744)
+F (..\Source\pwm\nrf_pwm_noglitch.c)(0x55C1CFAC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\nrf_pwm_noglitch.o --omf_browse .\_build\nrf_pwm_noglitch.crf --depend .\_build\nrf_pwm_noglitch.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\Include\pwm\nrf_pwm_noglitch.h)(0x55C02B7D)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpiote.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_sdm.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_soc.h)(0x528027A4)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_soc.h)(0x52789772)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_sdm.h)(0x52B25738)
+F (..\..\..\..\..\Source\ble\ble_error_log.c)(0x52B407EE)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\ble_error_log.o --omf_browse .\_build\ble_error_log.crf --depend .\_build\ble_error_log.d)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_error_log.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_flash.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\pstorage.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\pstorage_platform.h)(0x551DFEC4)
+F (..\..\..\..\..\Source\app_common\pstorage.c)(0x52B407FA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\pstorage.o --omf_browse .\_build\pstorage.crf --depend .\_build\pstorage.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_assert.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_soc.h)(0x528027A4)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_soc.h)(0x52789772)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\pstorage.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Board\pca10001\s110\[2015-8-14]CarAirPurifier\pstorage_platform.h)(0x551DFEC4)
+F (..\..\..\..\..\Source\app_common\crc16.c)(0x52B407F4)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\crc16.o --omf_browse .\_build\crc16.crf --depend .\_build\crc16.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\crc16.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\..\..\..\..\Source\ble\ble_advdata.c)(0x52B407EE)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_advdata.h)(0x52B40804)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_l2cap.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_err.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gattc.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatts.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_services\ble_srv_common.h)(0x52B40802)
+F (..\..\..\..\..\Source\app_common\app_scheduler.c)(0x52B407F4)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\app_scheduler.o --omf_browse .\_build\app_scheduler.crf --depend .\_build\app_scheduler.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_scheduler.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_soc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_soc.h)(0x52789772)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_assert.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+F (..\..\..\..\..\Source\app_common\app_timer.c)(0x52B407FA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_timer.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_scheduler.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_soc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_soc.h)(0x52789772)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_delay.h)(0x55A8A89E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+F (..\..\..\..\..\Source\ble\ble_conn_params.c)(0x52B407D4)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_conn_params.h)(0x52B40804)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_l2cap.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_err.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gattc.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatts.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_services\ble_srv_common.h)(0x52B40802)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_hci.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_timer.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_scheduler.h)(0x52B40800)
+F (..\..\..\..\..\Source\sd_common\softdevice_handler.c)(0x55BF2406)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\sd_common\softdevice_handler.h)(0x52B40806)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_sdm.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_svc.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_soc.h)(0x528027A4)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_soc.h)(0x52789772)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error_sdm.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_scheduler.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\sd_common\ble_stack_handler_types.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_ranges.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_types.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gap.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_l2cap.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_err.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatt.h)(0x528027A4)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gattc.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\ble_gatts.h)(0x52B252FA)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\sd_common\ant_stack_handler_types.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_assert.h)(0x52B40802)
+F (..\..\..\..\..\Source\app_common\app_button.c)(0x52B407F4)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_button.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_scheduler.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_gpiote.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_timer.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\..\..\..\..\Source\app_common\app_gpiote.c)(0x52B407FA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\app_gpiote.o --omf_browse .\_build\app_gpiote.crf --depend .\_build\app_gpiote.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_gpiote.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_bitfields.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51_deprecated.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\compiler_abstraction.h)(0x52B2542E)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_error.h)(0x52B40800)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\s110\nrf_error.h)(0x52B25738)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\app_common\app_util.h)(0x52B40800)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf_gpio.h)(0x52B40802)
+F (..\..\..\..\..\Source\ble\ble_debug_assert_handler.c)(0x52B407EE)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 -I..\..\..\..\..\Include\sd_common -I..\Include -I..\Include\sevices -I..\Include\protocol -I..\Include\AirPurifier -I..\Include\sensor -I..\Include\Buffer -I..\Include\pwm --c99-I D:\Keil5\ARM\RV31\INC-I D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I D:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.1\Device\Include-I D:\Keil5\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10001 -o .\_build\ble_debug_assert_handler.o --omf_browse .\_build\ble_debug_assert_handler.crf --depend .\_build\ble_debug_assert_handler.d)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_debug_assert_handler.h)(0x52B40804)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nrf51.h)(0x52B2542C)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\system_nrf51.h)(0x52B2542C)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_error_log.h)(0x52B40802)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\ble\ble_flash.h)(0x52B40802)
+I (E:\Nordic Semiconductor\nRF51 SDK_v5.1.0.36092_Backup\Nordic\nrf51822\Include\nordic_common.h)(0x52B40806)

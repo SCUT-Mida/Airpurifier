@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\AirPurifier\AirPurifier-V3.0\BLE3.0–≠“È∞Ê\Stack\Nordic\nrf51822\Board\pca10001\s110\[2015-7-9]CarAirPurifier\arm\CarAirPurifier.uvproj
+Project File Date:  06/11/2015
+
+<h2>Output:</h2>
+Rebuild target 'nrf51822_xxaa_s110 (256K)'
+assembling arm_startup_nrf51.s...
+compiling system_nrf51.c...
+compiling main.c...
+..\main.c(405): warning:  #177-D: variable "kv_num" was declared but never referenced
+        uint8_t kv_num;
+..\main.c(700): warning:  #177-D: function "power_manage" was declared but never referenced
+  static void power_manage(void)
+..\main.c: 2 warnings, 0 errors
+compiling application.c...
+..\Source\protocol\application.c(279): warning:  #550-D: variable "err_code" was set but never used
+        uint32_t err_code;
+..\Source\protocol\application.c(20): warning:  #177-D: variable "m_resend_count" was declared but never referenced
+  static uint8_t                                m_resend_count = 0;
+..\Source\protocol\application.c: 2 warnings, 0 errors
+compiling transport.c...
+compiling protocol.c...
+compiling ble_srv_common.c...
+compiling ble_id.c...
+compiling ble_uart.c...
+compiling rx_buffer_queue.c...
+compiling car_air_purifier.c...
+compiling delay.c...
+compiling gpio.c...
+compiling adc.c...
+compiling lcd13232.c...
+..\Include\AirPurifier\lcdcode.h(206): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\AirPurifier\lcd13232.c(18): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(23): warning:  #223-D: function "_nop_" declared implicitly
+        _nop_();
+..\Source\AirPurifier\lcd13232.c(42): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(46): warning:  #223-D: function "_nop_" declared implicitly
+        _nop_();
+..\Source\AirPurifier\lcd13232.c(59): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(63): warning:  #223-D: function "_nop_" declared implicitly
+        _nop_();
+..\Source\AirPurifier\lcd13232.c(76): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(85): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(102): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(114): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(127): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(146): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(164): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(178): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(192): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(206): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(220): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c(234): warning:  #161-D: unrecognized #pragma
+  #pragma disable
+..\Source\AirPurifier\lcd13232.c: 19 warnings, 0 errors
+compiling sensor.c...
+compiling dht11.c...
+..\Source\sensor\dht11.c(132): warning:  #550-D: variable "temp" was set but never used
+        uint8_t temp[2],humi[2];
+..\Source\sensor\dht11.c(132): warning:  #550-D: variable "humi" was set but never used
+        uint8_t temp[2],humi[2];
+..\Source\sensor\dht11.c: 2 warnings, 0 errors
+compiling pm25.c...
+..\Source\sensor\pm25.c(70): warning:  #550-D: variable "pPm25" was set but never used
+        uint8_t pPm25[PM25_BUF_SIZE];
+..\Source\sensor\pm25.c: 1 warning, 0 errors
+compiling tvoc.c...
+..\Source\sensor\tvoc.c(74): warning:  #550-D: variable "pTvoc" was set but never used
+        uint8_t pTvoc[TVOC_BUF_SIZE];
+..\Source\sensor\tvoc.c: 1 warning, 0 errors
+compiling ble_error_log.c...
+compiling pstorage.c...
+compiling crc16.c...
+compiling ble_advdata.c...
+compiling app_scheduler.c...
+compiling app_timer.c...
+compiling ble_conn_params.c...
+compiling softdevice_handler.c...
+compiling app_button.c...
+compiling app_gpiote.c...
+compiling ble_debug_assert_handler.c...
+linking...
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.bss).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching transport.o(.bss).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching transport.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching pm25.o(.bss).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching tvoc.o(.bss).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching application.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching app_timer.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching app_button.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching dht11.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching ble_conn_params.o(.bss).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching ble_conn_params.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching softdevice_handler.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching pstorage.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching app_gpiote.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching ble_uart.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching rx_buffer_queue.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching ble_debug_assert_handler.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching protocol.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching ble_id.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching pm25.o(.data).
+.\_build\ble_app_template.axf: Error: L6406E: No space in execution regions with .ANY selector matching tvoc.o(.data).
+.\_build\ble_app_template.axf: Error: L6407E: Sections of aggregate size 0xa08 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 23 error messages.
+".\_build\ble_app_template.axf" - 23 Error(s), 27 Warning(s).
+Target not created
